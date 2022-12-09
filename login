@@ -6,8 +6,7 @@ for(let i=1;i<=num;i++){
 if(num%i==0){
 factor++;
 }
+} if (factor==2)
+{console.log("yes it is a prime number")
 }
-if (factor==2){
-console.log("Yes")}
-else{
-console.log("No")}
+else{console.log("it is not a prime number")}
